@@ -1,5 +1,10 @@
 ---
+
+// Astro Components
+import Footer from '../components/footer.astro'
 import Navigation from '../components/navigation.astro'
+
+// CSS
 import '../styles/global.css'
 
 const pageTitle = "Blog Page"
@@ -23,5 +28,7 @@ const pageTitle = "Blog Page"
             <li><a href="/posts/post-2">Post 2</a></li>
             <li><a href="/posts/post-3">Post 3</a></li>
         </ul>
+
+		<Footer />
 	</body>
 </html>

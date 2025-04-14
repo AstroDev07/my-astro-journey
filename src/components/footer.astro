@@ -1,0 +1,19 @@
+---
+import Social from "./Social.astro"
+
+const year = new Date().getFullYear()
+
+
+---
+<style>
+    footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+</style>
+
+<footer>
+    <Social platform="github" username="astrodev07"></Social>
+    <p>Diego A. Enriquez Puig. Copyright© {year}</p>
+</footer>
